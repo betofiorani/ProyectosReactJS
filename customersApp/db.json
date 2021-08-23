@@ -1,0 +1,39 @@
+{
+  "customers": [
+    {
+      "id": "28427265",
+      "dni": "28427265",
+      "name": "Daniela Blati",
+      "age": 40
+    },
+    {
+      "id": "52465205",
+      "dni": "52465205",
+      "name": "Guadi Fiorani",
+      "age": 8
+    },
+    {
+      "name": "CHACHO",
+      "dni": "24312000",
+      "age": 41,
+      "id": "PnPCdnz"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
