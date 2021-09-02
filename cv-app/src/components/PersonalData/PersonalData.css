@@ -1,0 +1,207 @@
+.personal-data {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user {
+    max-width: 90%;
+    position: relative;
+    height: fit-content;
+}
+
+@media(min-width:1400px){
+    .user {
+        max-width: 50%;
+    }
+}
+
+.foto-user {
+    position: relative;
+}
+
+.foto-info {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 3px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.foto-info p, .foto-info span {
+    color: white;
+    margin: 3px 0;
+    font-family: 'roboto';
+}
+
+.foto-info p {
+    font-size: 15px;
+}
+
+.foto-info span {
+    font-size: 12px;
+}
+
+.data-user {
+    padding: 0 10px;
+    width: 100%;
+}
+
+.persona-list-item {
+    font-family: 'roboto';
+    display: flex;
+    padding-bottom: 8px;
+    flex-direction: column;
+}
+
+.persona-list-item .icon-label {
+    display: flex;
+    align-items: center;
+}
+
+.persona-list-item .icon {
+    font-size: 20px;
+}
+
+.persona-list-item p {
+    margin: 8px 0;
+}
+
+.persona-list-item .flag {
+    width: 20px;
+}
+
+.persona-list-item label {
+    font-size: 14px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 10px;
+    text-transform: uppercase;
+    background-color: gainsboro;
+    padding: 5px 10px;
+}
+
+.persona-list-item label:hover {
+    background-color: gainsboro;
+    transform: scale(1.1);
+}
+
+.persona-list-item .button{
+    margin-left: 10px;
+}
+
+.string, .int, .boolean, .date {
+    font-size: 9px;
+    font-family: 'roboto';
+    margin-left: 2px;
+}
+
+.string {
+    color: #f58220;
+}
+
+.operator {
+    font-size: 13px;
+    padding: 0 5px;
+}
+
+.int {
+    color: green;
+}
+
+.boolean {
+    color: blue;
+}
+
+.date {
+    color: blueviolet;
+}
+
+.corazon {
+    color: red;
+}
+
+.mostrar-edad {
+    margin-left: 10px;
+}
+
+@media(min-width:768px) {
+    .persona-list-item label {
+        font-size: 15px;
+        margin-left: 15px;
+        width: 210px;
+    }
+
+    .personal-data h2 {
+        text-align: left;
+    }
+
+    .user {
+        max-width: 40%;
+    }
+    
+    .foto-info p {
+        font-size: 20px;
+    }
+
+    .persona-list-item {
+        padding-bottom: 20px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .persona-list-item p {
+        margin-left: 30px;
+        font-size: 20px;
+        margin: 0;
+        margin-left: 10px;
+    }
+
+    .persona-list-item p span {
+        font-size: 18px;
+        padding: 0 10px;
+    }
+
+    .persona-list-item .button{
+        margin-left: 32px;
+    }
+    
+    .foto-info span {
+        font-size: 15px;
+    } 
+
+    .persona-list-item .icon {
+        font-size: 25px;
+    }
+    .string, .int, .boolean, .date {
+        font-size: 10px;
+    }
+    .persona-list-item .flag {
+        width: 25px;
+    }
+}
+
+@media(max-width:760px){
+    .personal-data h2 {
+      margin-top: 40px;  
+    }
+  }
+
+@media(min-width:1000px) {
+    .personal-data {
+        flex-direction: row;
+    }
+    .data-user {
+        padding: 0 40px;
+        width: 70%;
+    }
+}
+
+.custom-window button {
+    line-height: 1;
+}
+
+.origen-title, .residencia-title {
+    color: #3f51b5;
+}

@@ -1,0 +1,56 @@
+.MuiDialog-paperWidthSm {
+    width: 95% !important;
+    height: fit-content;
+    max-width: 95% !important;
+    min-height: 270px;
+    
+}
+
+.MuiDialog-paper {
+    margin: 2px!important;
+ 
+}
+
+.WithStyles\(ForwardRef\(DialogContent\)\)-root-9 {
+    padding: 12px 0 0px 0 !important;
+}
+
+@media (min-width:480px) {
+    .MuiDialog-paperWidthSm {
+        min-height: 320px;
+    }    
+}
+
+@media (min-width:768px) {
+    .MuiDialog-paperWidthSm {
+        min-height: 450px;
+    }    
+    .MuiBox-root-6 {
+        padding: 24px !important;
+    }
+
+    .WithStyles\(ForwardRef\(DialogContent\)\)-root-9 {
+        padding: 10px !important;
+    }
+}
+
+@media (min-width:1000px) {
+    .MuiDialog-paperWidthSm {
+        min-height: 600px;
+        width: 70%!important;
+    }    
+}
+
+.origen-title, .origen-content, .origen-actions {
+    width: 100%;
+    
+}
+
+.residencia-title, .residencia-content, .residencia-actions {
+    width: 100%;
+    
+}
+
+.MuiBox-root-6 {
+    padding: 6px !important;
+}

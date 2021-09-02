@@ -1,0 +1,45 @@
+
+@media(min-width:768px){
+
+    .personal-contacts h2 {
+        text-align: left;
+    }
+}
+
+.redes-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes-link .icon {
+    font-size: 25px;
+    margin-right: 10px;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.redes-link .icon-mail {
+    margin-right: 0;
+}
+
+.icon-youTube:hover {
+    color: red;
+}
+.icon-linkedIn:hover {
+    color: #0A66C2;  
+}
+
+.icon-facebook:hover {
+    color: #3f51b5;
+}
+
+.icon-github:hover {
+    color: #3f51b5;
+}
+
+.icon-whatsApp:hover {
+    color:#25D366
+}
+
+.icon-mail:hover {
+    color: #3f51b5;
+}

@@ -1,0 +1,66 @@
+.education {
+    display: flex;
+    flex-direction: column;
+}
+
+.education .institucion {
+    justify-content: center;
+    font-size: 16px;
+    color: #f58220;
+}
+
+.year {
+    font-size: 21px;
+}
+
+.estudio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 90%;
+    justify-content: space-around;
+    background-color: rgb(63 81 181 / 20%);
+}
+
+@media(min-width:768px){
+    .estudio {
+        flex-direction: row;
+    }
+    .estudio-imagenes {
+        font-size: 27px;        
+    }
+    .education .institucion {
+        font-size: 22px;
+    }
+    
+    .year {
+        font-size: 30px;
+    }
+}
+
+.estudio-info {
+    flex: 1;
+    text-align: center;
+    font-family: 'roboto';
+}
+
+.estudio-info h4 {
+    text-transform: uppercase;
+    color: #3f51b5;
+    margin-bottom: 2px;
+    font-size: 18px;
+}
+
+.estudio-info p {
+    margin: 5px 0;
+}
+
+.estudio-imagenes {
+    flex: 1;
+    justify-content: center;
+    max-width: 100%;
+}
+

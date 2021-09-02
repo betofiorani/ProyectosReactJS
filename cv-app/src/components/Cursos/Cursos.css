@@ -1,0 +1,106 @@
+.cursos {
+
+}
+
+.institucion-logo {
+    width: 80px;
+}
+
+.curso {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-direction: column;
+    padding: 0 5px;
+}
+
+.curso-info {
+    flex:1;
+}
+
+.curso-info h4 {
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #3f51b5;
+    margin: 0;
+}
+
+.curso-info p {
+    margin: 5px;
+}
+
+.curso-info .curso-detalle {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.curso-info h4 span{
+    font-size: 40px;
+    color: #f58220;
+    margin-right: 10px;
+}
+
+
+.curso-imagenes {
+    flex:1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.curso-imagenes img {
+    max-width: 100%;
+}
+
+.institucion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 2px 0;
+}
+
+.institucion a {
+    color: #3f51b5;
+    border: 1px solid rgba(63, 81, 181, 0.5);
+    border-radius: 4px;
+    line-height: 1;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.aprendizaje {
+    font-size: 14px;
+}
+
+.aprendizaje .aprendizaje-parrafo {
+    margin: 3px;
+    line-height: 1;
+}
+
+.curso-title {
+    color: #3f51b5;
+}
+
+.curso-content {
+    text-align: center;
+}
+
+@media(min-width:768px){
+    .curso {
+        padding: 0 40px;
+        flex-direction: row;
+    }
+}
+
+@media(max-width:768px){
+    .curso-imagenes button {
+        display: none;
+    }
+}

@@ -1,0 +1,59 @@
+.skill-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+@media (min-width:480px) {
+    .skill-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media(min-width:768px) {
+    .skill-container{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .habilidades {
+        margin-bottom: 50px;
+        padding: 0 40px;
+    }    
+}
+
+@media (min-width:1000px) {
+    .skill-container{
+        grid-template-columns: repeat(5,1fr);
+    }
+}
+
+.habilidades {
+    margin-bottom: 50px;
+    padding: 0 10px;
+}
+
+.habilidades h5 {
+    font-family: 'Roboto';
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #3f51b5;
+    margin: 30px 0 15px 0;
+}
+
+.skills-colorBox {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 0;
+    align-items: center;
+    gap: 10px;
+}
+
+.skills-colorBox .icon {
+    font-size: 20px;
+}
+
+.skills-colorBox h3 {
+    font-size: 15px;
+    margin-top: 0;
+}

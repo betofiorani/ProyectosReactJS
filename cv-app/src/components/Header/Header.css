@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    min-height: 120px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.header .redes-nav {
+    align-self: flex-start;
+    flex: 1;
+    justify-content: flex-start;
+    margin-top: 5px;
+}
+
+@media(max-width:768px) {
+    .header .redes-nav {
+        visibility: hidden;
+    }
+}
+
+.header-logo {
+    flex: 2;
+}
+
+.header-weather {
+    flex: 1;
+}
+
+.header img {
+    max-width: 235px;
+}
